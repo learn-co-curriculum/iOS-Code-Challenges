@@ -7,7 +7,7 @@ Our main goals:
 * Sharpen your iOS/Swift knowledge by challenging you to learn new topics.
 * Make Barry happy.
 
-This is a project that you should work on _alone_. Where pair-programming is great, the following challenges are meant to simulate code challenges you would submit to an employer that you would have worked on by yourself. The instructions are meant to be vague. Focus on the most important parts of making it work--but make sure it's code you would be proud to show someone. If there are any questions as to the direction of where you should go, feel free to message us on Slack. As to answering _specific_ questions to the code you will be writing, realize that we won't be giving you a direct answer which would solve your problem. We might point you in the right direction or steer the ship away from crashing into an ice-berg (.. never let go Jack), but realize that this is for your benefit.
+These are projects that you should work on _alone_. Where pair-programming is great, the following challenges are meant to simulate code challenges you would submit to an employer that you would have worked on by yourself. The instructions are meant to be vague. Focus on the most important parts of making it work--but make sure it's code you would be proud to show someone. If there are any questions as to the direction of where you should go, feel free to message us on Slack. As to answering _specific_ questions to the code you will be writing, realize that we won't be giving you a direct answer which would solve your problem. We might point you in the right direction or steer the ship away from crashing into an ice-berg (.. never let go Jack), but realize that this is for your benefit.
 
 
 # Magic: The Gathering (Advanced)
@@ -30,6 +30,28 @@ Create an iOS application that allows the user to interact with the [Magic: The 
 
 You should use CocoaPods to install Realm, and you may use other 3rd party libraries **except** for network requests and parsing JSON.
 
+
+### Architecture and Testing
+
+Use MVVM as it helps _de-bloat_ ViewControllers and improves testability. You don't need to be an expert in MVVM but you should follow the basic principles.
+
+---
+
+# Movies (Intermediate)
+
+![](http://i.imgur.com/t0QNGQm.jpg)
+
+Create an iOS application that allows the user to interact with the [OMDb API](https://www.omdbapi.com).
+
+### Specifications
+* A user should be able to search for movies or TV shows to then view them in a `UICollectionView` or `UITableView` (your choice).
+* A user should be able to tap on a cell and see a detail view with information about the movie.
+* If the movie contains "Leonardo DiCaprio" as one of its actors, then the cell and detail view should indicate that in some way. 
+* A user should be able to _favorite_ films. These films that were "favorited" should be persisted using Core Data.
+
+### Libraries
+
+You may use other 3rd party libraries **except** for network requests and parsing JSON.
 
 ### Architecture and Testing
 
